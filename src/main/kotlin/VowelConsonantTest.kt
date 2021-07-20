@@ -9,7 +9,7 @@ class VowelConsonantTest {
 
 
     @Test fun countConsonants(){
-        Assert.assertEquals(21, countConsonants("Geralmente uma frase possui mais consoantes!"))
+        Assert.assertEquals(21, countConsonants("Geralmente uma frase possui mais consoantes!!"))
     }
 
     @Test fun countVowelsAndConsonants(){
